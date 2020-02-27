@@ -1,0 +1,23 @@
+.btnOnMessage{
+  float: right;
+  border: 1px solid #DDD;
+  box-shadow:0px 0px 10px #4183C4;
+}
+li{
+  list-style-type: none;
+  border: 1px solid blue;
+  padding: 5px;
+}
+.blink {
+  color:rgb(122, 184, 241); 
+  animation: colorblink 2s infinite;
+}
+@keyframes colorblink { 
+0% { }
+50% { color:rgb(47, 4, 238); } 
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
